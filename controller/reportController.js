@@ -2,7 +2,7 @@ const Report = require("../models/report");
 
 const asyncHandler = require("express-async-handler");
 
-// REPORT STATUS......
+// REPORT STATUS.....
 const statusReports = asyncHandler(async (req, res) => {
   try {
     const { status } = req.params;
